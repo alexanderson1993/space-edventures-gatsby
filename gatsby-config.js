@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + WordPress Starter',
+    title: 'Space EdVentures Blog',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -9,7 +9,7 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
-        baseUrl: 'wpdemo.gatsbycentral.com',
+        baseUrl: 'blogadmin.spaceedventures.org',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
